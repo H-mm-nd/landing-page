@@ -1,0 +1,53 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.box {
+    display:flex;
+}
+
+.header {
+ justify-content: space-between;
+ align-items: center;
+ padding: 1% 5% 0% 5%;
+}
+
+.hero{
+    padding: 5%;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    width: 50%;
+    padding: 0 5% 0 0;
+}
+
+.hero img {
+    width: 30%;
+    height: auto;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.hero p {
+    font-size: 18px;
+
+}
+
+.hero button {
+    color: white;
+    background-color: #3882F6;
+}
+
+.header,
+.hero,
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
