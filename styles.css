@@ -81,4 +81,8 @@ body{
 .hero button {
     color: white;
     background-color: #3882F6;
+    /* add space inside button, round corners, and get rid of border */
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
 }
