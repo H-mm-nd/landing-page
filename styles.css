@@ -7,7 +7,7 @@ body{
 
 /* make a flexbox that I can drop onto any html object I wan - not sure if this a good way to do it */
 .box {
-    display:flex;
+    display: flex;
 }
 
 /* Set font and background color for header, hero, and footer */
@@ -96,13 +96,21 @@ body{
     padding: 30px 0px 15px 0px;
 }
 
-/* make links into a vertical box and align items */
-.links{
-    align-items: center;
+/* style link images */
+.links {
+    display: flex;
+    justify-content: space-between;
 }
 
-/* style link images */
+/* make each link a flexbox and align */
+.link {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+/* size images */
 .link img {
-    width: 25%;
+    width: 70%;
     height: auto;
 }
