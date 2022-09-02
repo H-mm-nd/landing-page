@@ -1,29 +1,44 @@
+/* make body into a vertical flexbox */
 body{
     display: flex;
     flex-direction: column;
     align-content: center;
 }
 
+/* make a flexbox that I can drop onto any html object I wan - not sure if this a good way to do it */
 .box {
     display:flex;
 }
 
+/* Set font and background color for header, hero, and footer */
+.header,
+.hero,
+.footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
 .header {
+    /* stick links to either side of header bar */
     justify-content: space-between;
     align-items: center;
+    /* Move logo and text away from sides of screen and hero */
     padding: 1% 5% 0% 5%;
 }
 
+/* style logo */
 .logo {
     font-size: 24px;
     color: #F9FAF8;
 }
 
+/* space out links */
 .header-links {
     justify-content: space-between;
     width: 40%;
 }
 
+/* style links */
 .header-links a {
     text-decoration: none;
     color: #E5E7EB;
@@ -31,39 +46,39 @@ body{
 }
 
 .hero{
+    /* pad between hero and header */
     padding: 5%;
+    /* center content */
     justify-content: center;
     align-items: center;
 }
 
+/* space and constrict text box */
 .hero-text {
     width: 50%;
     padding: 0 5% 0 0;
 }
 
+/* size hero image */
 .hero img {
     width: 30%;
     height: auto;
 }
 
+/* style hero header */
 .hero h1 {
     font-size: 48px;
     font-weight: 900;
 }
 
+/* style hero paragraph */
 .hero p {
     font-size: 18px;
 
 }
 
+/* style hero button */
 .hero button {
     color: white;
     background-color: #3882F6;
-}
-
-.header,
-.hero,
-.footer {
-    background-color: #1F2937;
-    color: #F9FAF8;
 }
