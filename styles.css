@@ -9,9 +9,25 @@ body{
 }
 
 .header {
- justify-content: space-between;
- align-items: center;
- padding: 1% 5% 0% 5%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 5% 0% 5%;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-links {
+    justify-content: space-between;
+    width: 40%;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .hero{
