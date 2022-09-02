@@ -137,3 +137,33 @@ body{
 .attribution {
     padding: 0 0 0 20%;
 }
+
+.action {
+    background-color: #3882F6;
+    /* size and align */
+    width: 80%;
+    align-self: center;
+    justify-self: center;
+    margin: 5% 0 5% 0;
+    padding: 5% 5% 5% 5%;
+    border-radius: 16px;
+    justify-content: space-between;
+    color: #F9FAF8;
+}
+
+/* styled buttons slapdash */
+.action button {
+    color: white;
+    background-color: #3882F6;
+    /* add space inside button, round corners, and get rid of border */
+    padding: 8px 16px;
+    border-radius: 8px;
+    border-color: white;
+    border-style: solid;
+    height: 25%;
+}
+
+/* footer styling */
+.footer {
+    text-align: center;
+}
